@@ -7,6 +7,7 @@ import "./Address.sol";
 library SafeERC20 {
     using Address for address;
 
+    /// 弃用
     function safeTransfer(
         IERC20 token,
         address to,
